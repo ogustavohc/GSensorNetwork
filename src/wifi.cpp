@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include "wifi.h"
 #include "atuadores.h"
-const char* nome_rede = "Pedro";
-const char* senha = "B856E97E0";
+const char* nome_rede = "";
+const char* senha = "";
 
 long unsigned tempo_reconexao = 2000;
 int vezes_reconexao = 1;
